@@ -1,7 +1,7 @@
 {
-    "id": "stopwatch",
+    "id": "barStopwatch",
     "name": "Stopwatch",
-    "description": "A bar stopwatch: click the timer icon to start, click the running time to pause, click again to resume or reset. Also driven by `dms ipc call stopwatch ...`",
+    "description": "A bar stopwatch: click the timer icon to start, click the running time to pause, click again to resume or reset. Also driven by `dms ipc call barStopwatch ...`",
     "version": "1.0.0",
     "author": "r0k0r",
     "type": "composite",

@@ -71,7 +71,7 @@ PluginComponent {
     }
 
     IpcHandler {
-        target: "stopwatch"
+        target: "barStopwatch"
 
         function toggle(): string {
             root.toggle();
