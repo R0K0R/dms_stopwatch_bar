@@ -1,0 +1,16 @@
+{
+    "id": "stopwatch",
+    "name": "Stopwatch",
+    "description": "A bar stopwatch: click the timer icon to start, click the running time to pause, click again to resume or reset. Also driven by `dms ipc call stopwatch ...`",
+    "version": "1.0.0",
+    "author": "r0k0r",
+    "type": "composite",
+    "icon": "timer",
+    "capabilities": ["daemon", "dankbar-widget", "ipc"],
+    "components": {
+        "daemon": "./StopwatchDaemon.qml",
+        "widget": "./StopwatchWidget.qml"
+    },
+    "requires_dms": ">=1.5.0",
+    "permissions": []
+}
